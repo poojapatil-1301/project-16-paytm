@@ -1,0 +1,59 @@
+.bg-skyblue{
+    background-color: #00baf2;
+}
+.user-img{
+    width: 130px;
+    justify-content: center;
+}
+.paytm-img{
+    position: absolute;
+    right: -5rem;
+    top: 5rem;
+    width: 500px;
+}
+.h-700{
+    height: 700px;
+}
+.margin-0{
+    margin: 0 !important;
+}
+.w-140{
+    width: 140px;
+}
+.w-140 img{ 
+    width: 64px;
+}
+.w-140 p{ 
+    width: 105px;
+}
+.bg-list-box  span{ 
+padding: 3px;
+border: solid #fff;
+border-width: 0 2px 2px 0;
+display: inline-block;
+transition: all .3s ease;
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+.li-box:hover {
+    background: #00afe3;
+    border-radius: 15px;
+}
+.li-box1:hover {
+    background: #0d3e80;
+    border-radius: 15px;
+}
+.bg-blueish{
+    background: #0f4a8a;
+}
+.rounded-15{
+    border-radius: 15px;
+}
+.bg-grey, body{
+    background: #f5f7fa;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .h-700{
+        height: 100% !important;
+    }
+  }
